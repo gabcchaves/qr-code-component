@@ -1,0 +1,60 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Outfit', sans-serif;
+	font-size: 15px;
+	height: 100vh;
+}
+
+main {
+	background-color: hsl(212, 45%, 89%);
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background-color: hsl(0, 0%, 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	width: 85%;
+	height: 85%;
+}
+
+.cardTitle {
+	color: hsl(218, 44%, 22%);
+	margin-bottom: 0;
+}
+
+.cardDescription {
+	color: hsl(220, 15%, 55%);
+}
+
+.card div {
+	display: flex;
+	align-items: inherit;
+	justify-content: inherit;
+	flex-direction: column;
+	text-align: center;
+}
+
+.cardImage {
+	width: 90%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.cardBody {
+	padding: 0 10%;
+}
+
+@media screen and (min-width: 768px) {
+	.card {
+		width: 20%;
+		height: 65%;
+	}
+}
